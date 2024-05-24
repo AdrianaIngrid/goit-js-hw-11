@@ -4,7 +4,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { options, JSON_API_URL, PIXABAY_API_KEY } from "./api-key";
 
 const searchForm = document.querySelector('.search-form');
-const imageGallery = document.querySelector('.gallery');
+//const imageGallery = document.querySelector('.gallery');
 const loadBtn = document.querySelector('.load-more');
 loadBtn.style.display = 'none';
 Notify.info("We're sorry, but you've reached the end of search results.");
