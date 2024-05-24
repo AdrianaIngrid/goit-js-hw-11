@@ -1,7 +1,8 @@
 import simpleLightbox from "simplelightbox";
 import { Notify } from "notiflix";
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { options, JSON_API_URL,PIXABAY_API_KEY } from "./api-key";
+import { options, JSON_API_URL, PIXABAY_API_KEY } from "./api-key";
+
 const searchForm = document.querySelector('.search-form');
 const imageGallery = document.querySelector('.gallery');
 const loadBtn = document.querySelector('.load-more');
